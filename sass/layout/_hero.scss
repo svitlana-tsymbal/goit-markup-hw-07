@@ -1,0 +1,18 @@
+.hero{
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(../images/hero-background.jpg); 
+    background-size: cover;
+    background-position: centers;
+    .container{
+    padding: 200px 0;
+    text-align: center;
+    }
+    h1 {
+        max-width: 696px;
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 30px;
+        @include font(900,44px,1.364,0.06em);
+        color: var(--white-color);
+        text-transform: uppercase;
+    }
+}

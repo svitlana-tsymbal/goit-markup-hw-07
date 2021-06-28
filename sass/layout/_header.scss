@@ -16,27 +16,25 @@
     align-items: center;
     .item + .item{
         margin-left: 50px
-    }
+        }
     a{
         align-items: center;
-    }
-}
-.header-contacts .link svg{
+        }
+    .link {
     transition:fill var(--transition-duration) var(--transition-timing-function), color var(--transition-duration) var(--transition-timing-function);
-}
-.header-contacts {
-    .link{
-    transition:fill var(--transition-duration) var(--transition-timing-function), color var(--transition-duration) var(--transition-timing-function);
-        &:hover, &:focus{
-            color: var(--accent-color);fill:var(--accent-color)
+    &:hover, 
+    &:focus{
+        color: var(--accent-color);fill:var(--accent-color)
+        }
+    &:hover svg,
+    &:focus svg{
+        fill:var(--accent-color);
         }
     }
+    .link svg{
+        transition:fill var(--transition-duration) var(--transition-timing-function), color var(--transition-duration) var(--transition-timing-function);
+    }
 }
-
-.header-contacts .link:hover svg,
-.header-contacts .link:focus svg{fill:var(--accent-color);fill:var(--accent-color)}
-
-
 .address {color: var(--small-text-color);}
 
 .icon-contacts{    

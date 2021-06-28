@@ -1,8 +1,6 @@
 .client {
     padding-top: 94px;
     padding-bottom: 94px;
-}
-.client {
     .list{
     display: flex;
     justify-content: space-around;
@@ -31,6 +29,10 @@
         &:hover, &:focus{
             border-color: var(--accent-color);
         }
+    &:hover svg,
+    &:focus svg {
+        fill: var(--accent-color);
+    }
 }
 .client-icon{
     width: 106px;
@@ -38,9 +40,7 @@
     margin: 16px 32px;
     fill:var(--social-icons-color);
     transition:fill var(--transition-duration) var(--transition-timing-function), border-color var(--transition-duration) var(--transition-timing-function);
-}
-.client-icon svg{
+    svg{
     transition:fill var(--transition-duration) var(--transition-timing-function), border-color var(--transition-duration) var(--transition-timing-function);
+    }
 }
-.client-link:hover svg,
-.client-link:focus svg{fill: var(--accent-color);}

@@ -2,17 +2,9 @@
     padding-top: 94px;
     padding-bottom: 94px;
     background:#F5F4FA;
-}
-.team {
     .container .list{
     display: flex;
     }
-}
-.imb-signature{
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-.team {
     h2 {
     text-align: center;
     margin-bottom: 50px;
@@ -32,11 +24,15 @@
     border-radius: 0px 0px 4px 4px;
     &:last-child{
         margin-right: 0;
-    }
-}    
+        }
+    }    
     .text {
     @include font(var(--font-weigt-normal),16px,1.188,0.03em);
     color: var(--small-text-color);
     text-align: center;
     }
+}
+.imb-signature{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }

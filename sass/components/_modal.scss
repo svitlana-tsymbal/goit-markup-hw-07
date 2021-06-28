@@ -11,8 +11,6 @@
 .backdrop.is-hidden{
     opacity: 0;
     pointer-events: none;
-}
-.backdrop.is-hidden{
     .modal{
     transform: translate(-50%,-50%) scale(1.2);
     opacity: 0;
@@ -44,6 +42,10 @@
         &:hover, &:focus{
             border-color:var(--accent-color);
         }
+    &:hover svg,
+    &:focus svg{
+        fill:var(--accent-color);
+    }
 }
 .svg-close{
     position: absolute;
@@ -53,10 +55,6 @@
     fill: #000000;
     transition: fill var(--transition-duration) var(--transition-timing-function);
 }
-
-.button-close:hover svg,
-.button-close:focus svg{fill:var(--accent-color);}
-
 .modal-button{
     align-self: center;
     width: 200px;

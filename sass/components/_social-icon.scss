@@ -19,6 +19,13 @@
         &:hover, &:focus{
             background-color:var(--accent-color);
         }
+    &:hover svg,
+    &:focus svg {
+        fill: var(--white-color);
+    }
+    svg{
+    transition: fill var(--transition-duration) var(--transition-timing-function), background-color var(--transition-duration) var(--transition-timing-function);  
+    }
 }
 .social-icon-link_geometry{
     margin-right: 10px;
@@ -26,12 +33,6 @@
 .social-icon-link_background-grey{
     background: rgba(255, 255, 255, 0.1);
 }
-.social-icon-link svg{
-    transition: fill var(--transition-duration) var(--transition-timing-function), background-color var(--transition-duration) var(--transition-timing-function);  
-}
-.social-icon-link:hover svg,
-.social-icon-link:focus svg {fill: var(--white-color);}
-
 .social-icon{
     width: 22px;
     height: 22px;

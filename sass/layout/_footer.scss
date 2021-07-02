@@ -4,17 +4,17 @@ footer{
     padding-top: 60px;
 }
 
-.ul-footer{
+.footer__list_all{
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-        .icons{
+        .footer__icons{
         margin-left: 70px;
         }
-        .list{
+        .footer__nav-list{
             margin-top: 20px;   
         }
-        .item{
+        .footer__nav-item{
             margin-bottom: 9px;
             color: var(--white-color);
             font-style: normal;
@@ -24,7 +24,7 @@ footer{
                 margin-bottom: 0;
                 }
         }
-        .title{
+        .footer__title{
             text-transform: uppercase;
             margin-bottom: 20px;
             @include font(var(--font-weigt-bold),14px,1.143,00.03em);

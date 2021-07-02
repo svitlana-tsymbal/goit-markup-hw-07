@@ -1,20 +1,24 @@
 .nav{
     display: flex;
     align-items: center;
-}
-.nav-list{
-    display: flex;
-    margin-left: 93px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    .item{
-        color: var(--main-text-color);
+    .nav__list{
+        margin-left: 93px;
+    }
+    .nav__item{
         margin-right: 50px;
     &:last-child{
         margin-right: 0;
         }
     }
-    .link{
+}
+.nav__list{
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    .nav__item{
+        color: var(--main-text-color);
+    }
+    .nav__link{
         display: block;
         transition: color var(--transition-duration) var(--transition-timing-function);
         &:hover,&:focus{
@@ -22,7 +26,7 @@
         }
     }
 }
-.current{
+.nav_current{
     position: relative;
     &::after{
         position: absolute;

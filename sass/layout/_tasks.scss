@@ -1,15 +1,15 @@
 .tasks {
     padding-bottom: 94px;
-    .list{
+    .tasks__list{
         display: flex;
     }
-    h2 {
+    .tasks__title {
         text-align: center;
         margin-bottom: 50px;
         @include font(var(--font-weigt-bold),36px,1.167,0.03em);
         color: var(--main-text-color);
     }
-    .item{
+    .tasks__item{
         position: relative;
         margin-right: 30px;
         justify-content: center;
@@ -18,7 +18,7 @@
         }
     }    
 }
-.tasks-description{
+.tasks__item_description{
     position: absolute;
     bottom: 0;
     width: 100%;

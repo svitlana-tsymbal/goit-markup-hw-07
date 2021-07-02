@@ -1,17 +1,17 @@
 .client {
     padding-top: 94px;
     padding-bottom: 94px;
-    .list{
+    .client__list{
     display: flex;
     justify-content: space-around;
     }
-    h2 {
+    .client__title {
     text-align: center;
     margin-bottom: 50px;
     @include font(var(--font-weigt-bold),36px,1.167,00.03em);
     color: var(--main-text-color);
     }
-    .item{
+    .client__item{
         margin-right: 30px;
         justify-content: center;
         align-items: center;
@@ -20,7 +20,7 @@
         }
     }    
 }
-.client-link{
+.client__link{
     display: inline-block;
     width: 170px;
     height: 92px;
@@ -34,7 +34,7 @@
         fill: var(--accent-color);
     }
 }
-.client-icon{
+.client__icon{
     width: 106px;
     height: 60px;
     margin: 16px 32px;

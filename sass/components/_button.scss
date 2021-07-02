@@ -17,19 +17,19 @@ button {
 }
 /*portfolio-button*/
 .portfolio-button{
-    .list{
+    .portfolio-button__list{
         display: flex;
         justify-content: center;
         align-items: center;
     }
-   .item{
+   .portfolio-button__item{
     border-radius: 4px;
     margin-right: 8px;
     &:last-child{
         margin-right: 0;
         }
     } 
-    button {
+    .portfolio-button__button {
     color: var(--main-text-color);
     background: #F5F4FA;
     border: none;

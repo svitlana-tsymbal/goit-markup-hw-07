@@ -14,13 +14,13 @@
     padding-top: 30px;
     padding-bottom: 30px;
     align-items: center;
-    .item + .item{
+    .header-contacts__item + .header-contacts__item{
         margin-left: 50px
         }
     a{
         align-items: center;
         }
-    .link {
+    .header-contacts__link {
     transition:fill var(--transition-duration) var(--transition-timing-function), color var(--transition-duration) var(--transition-timing-function);
     &:hover, 
     &:focus{
@@ -31,7 +31,7 @@
         fill:var(--accent-color);
         }
     }
-    .link svg{
+    .header-contacts__link svg{
         transition:fill var(--transition-duration) var(--transition-timing-function), color var(--transition-duration) var(--transition-timing-function);
     }
 }

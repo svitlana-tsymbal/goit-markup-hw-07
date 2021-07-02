@@ -2,21 +2,22 @@
     padding-top: 94px;
     padding-bottom: 94px;
     background:#F5F4FA;
-    .container .list{
+    .team__list{
     display: flex;
     }
-    h2 {
+    .team__main-title {
     text-align: center;
     margin-bottom: 50px;
     @include font(var(--font-weigt-bold),36px,1.167,0.03em);
     color: var(--main-text-color);
     }
-    .title {
+    .team__title {
     text-align: center;
     @include font(var(--font-weigt-500),16px,1.188,0.03em);
     color: var(--main-text-color);
+    margin-bottom: 10px;
     }
-    .item{
+    .team__item{
     margin-right: 30px;
     justify-content: center;
     background: var(--white-color);
@@ -26,13 +27,13 @@
         margin-right: 0;
         }
     }    
-    .text {
+    .team__text {
     @include font(var(--font-weigt-normal),16px,1.188,0.03em);
     color: var(--small-text-color);
     text-align: center;
     }
 }
-.imb-signature{
+.team__img_signature{
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 16px;
 }
